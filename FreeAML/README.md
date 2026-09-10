@@ -15,10 +15,10 @@ Living build specification for **FreeAML** (`freeaml.com.au`): AUSTRAC Tranche 2
 | `00-product` | What / why / goals |
 | `01-users` | Who / roles |
 | `02-architecture` | Sitemap / IA |
-| `03-features` | Feature inventory |
+| `03-features` | Feature inventory **+ filled F-001…F-020 specs** |
 | `04-flows` | End-to-end journeys |
-| `05-pages` | Page inventory + template |
-| `06-components` | UI building blocks |
+| `05-pages` | Page inventory + **filled `specs/{ID}.md` per row** |
+| `06-components` | Component inventory + **filled `specs/C-XXX-*.md`** |
 | `07-design` | UX principles / tokens |
 | `08-business-rules` | Hard product rules |
 | `09-data` | Entities |
@@ -30,3 +30,7 @@ Living build specification for **FreeAML** (`freeaml.com.au`): AUSTRAC Tranche 2
 | `prompts/` | Agent build prompts |
 
 Start here: `docs/00-product/product-overview.md` then `docs/13-roadmap/milestones.md`.
+
+## Spec expansion status
+
+`docs/03-features/`, `docs/05-pages/specs/`, and `docs/06-components/specs/` now contain **filled** product specs per inventory row (not empty templates). See `/workspace/freeaml-docs/expansion-manifest.txt` for counts.
